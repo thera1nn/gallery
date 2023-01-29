@@ -1,0 +1,39 @@
+.gallery{
+    padding: 30px;
+    border: 3px solid #999;
+    box-shadow: 2px 2px 10px 3px #333;
+    width: 500px;
+    margin: 80px auto;
+    background-color: #fff;
+}
+.small{
+    margin: 20px 0 0 40px;
+}
+.big{
+    margin: 0 auto;
+    max-width: 480px;
+}
+.small img{
+    border: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+}
+.button:hover{
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: 80px auto;
+    position: relative;
+}
+
